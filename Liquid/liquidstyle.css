@@ -1,0 +1,44 @@
+body {
+	padding:0px;
+	margin:0px;
+	background-color:#ffffff;
+}
+div {
+	display: block;
+}
+
+.wrapper {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 132px;
+	background-image:url('header-bg.jpg');
+}
+
+.header-content {
+	
+}
+
+.header-content {
+	float: left;
+	position: relative;
+	height: 112px;
+}
+
+.imgMasthead {
+	background: transparent url('') no-repeat scroll 0 0;
+	height: 132px;
+	left: -152px;
+	position: absolute;
+	width: 428px;
+}
+
+.logo {
+	width: 159px;
+	height: 18px;
+	position: absolute;
+	top: 60px;
+	left: 153px;
+}

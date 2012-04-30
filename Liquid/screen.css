@@ -1,0 +1,103 @@
+body
+{
+	margin:0;
+	padding:0;
+	border:0;
+	width:100%;
+	background:#fff;
+	min-width:600px;    	
+	font-size:90%;
+}
+img {
+	margin:10px 0 5px;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+}
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+a {
+	color:#ffffff;
+	text-decoration:none;
+}
+a:hover {
+	color:#cccccc;
+	background:#369;
+	text-decoration:none;
+}
+li {
+	border-top:1px solid #000000;
+}
+ul {
+	list-style:none;
+	margin:0px 0px 10px 0px;
+	padding:0;
+}
+
+.colmask {
+	position:relative;		/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;
+}
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+.leftmenu {
+	background:#fff;		
+}
+.leftmenu .colleft {
+	right:75%;			/* right column width */
+	background:#2A6FA8;	/* left column background colour */
+	border-right:2px solid #000;
+}
+.leftmenu .col1 {
+	width:71%;			/* right column content width */
+	left:102%;			/* 100% plus left column left padding */
+}
+.leftmenu .col2 {
+	width:21%;			/* left column content width (column width minus left and right padding) */
+	left:6%;			/* (right column left and right padding) plus (left column left padding) */
+}
+
+.col1 img
+{
+	border: 1px solid #000000;
+}
+
+#header
+{
+	height:132px;
+	background-image:url('masthead.jpg');
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	border-bottom:4px solid #000000;
+	background-color:#ffffff;
+}
+#header p,
+#header h1,
+#header h2 {
+	padding:.4em 15px 0 15px;
+	margin:0;
+}
+
+#ads img {
+	display:block;
+	padding-top:10px;
+}

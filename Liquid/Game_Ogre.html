@@ -1,0 +1,60 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="screen.css" media="screen" />
+	<title>Example of Basic Liquid Layout</title>
+</head>
+<body>
+	<div id="header">
+		<img style="margin-left:auto; margin-right:auto" src="Banner.png" />
+	</div>
+<div class="colmask leftmenu">
+		<div class="colleft">
+			<div class="col1">
+				<!-- Column 1 start -->
+				<img style="border: 2px solid #000000;" src="Ogre.png" alt="" /><br />
+
+				<strong>Downloads:</strong> Source <a href="http://www.aaronrklein.com/uploads/Portfolio.zip">(.zip)</a> | Executable <a href="http://www.aaronrklein.com/uploads/Ogre%20Game%20Install.exe">(.exe)</a><br />
+				<span style="color: #ff0000; font-size: 10px; font-weight: bold;">*Note: Source includes libraries for easier compilation.</span>
+				<span style="color: #ff0000; font-size: 12px; font-weight: bold;">Gameplay and Installation Tips: </span>
+				<span style="color: #ff0000; font-size: 10px; font-weight: bold;">&nbsp;&nbsp;1. Run Ogre Game Install.exe and save to desktop for easy access</span>
+				<span style="color: #ff0000; font-size: 10px; font-weight: bold;">&nbsp;&nbsp;2. Run Game.exe in OgreGame directory</span>
+				<span style="color: #ff0000; font-size: 10px; font-weight: bold;">&nbsp;&nbsp;3. Adjust resolution and other settings for optimal performance.</span><br /><br />
+
+				<strong>Goals: </strong>Ogre started as a group project for one of my junior level Computer Science classes, Processes for Object-Oriented Programming. Knowing then that I wanted to pursue a career in game programming, another student and I decided to use this project as a way to familiarize ourselves with what it takes to make a game using the industry standard, C++. Our knowledge of the language was quite limited at the onset of the project so we invested a large majority of our time picking up the nuances of the language and evaluating which libraries would best suit our needs. Unfortunately, our art content production fell through, so we had to settle with using stock animation and graphics instead of custom assets. However, as it was presented to the class, the game featured: Level loading through a file, a functional user interface and basic Artificial Intelligence.
+				Subsequent to completion of the class, I have retained my interest in the project and have been working, as my time allows, to improve various aspects of the game. To date, I have revisited most of the code from the game, making improvements and adding new features like animation, sound, player loading and saving.<br /><br />
+				<strong>Technology: </strong>Ogre 3D Rendering Engine, FMOD sound library, Crazy Eddie's GUI library (CEGUI), Visual Studio 2010, XML. <br /><br />
+				<strong>Game Concept:</strong>The design of Ogre was kept as simple as possible in order to make the project feasible over the allotted two-months of development time. A simple “hack and slash”, the goal of Ogre is: destroy every hut to progress to the next level.
+				The player spawns as the Ogre in the center of a large, flat plane. Huts can spawn in each of the four quadrants around you (as seen in the picture below). Two huts will not spawn in the same quadrant until each quadrant has at least one hut inside of it. Surrounding the hut are three Guardian enemies that will attack the player once he gets within a certain proximity to the hut. Once all Guardians surrounding a hut are eliminated, the hut will despawn. In addition to the Guardians, huts will spawn Minion enemies at a specified time period until the hut is destroyed.
+				The game is currently broken into three levels, each one distinguished by an increasing level of difficulty. The levels are all XML driven, so the number of huts, spawn rate, level textures and enemy textures can be changed for every level.<br /><br />
+				<strong>People: </strong>Chris McKeown and I were responsible for the original version of Ogre. As this is now one of my primary portfolio pieces, the version that can be downloaded here is completely my own work.<br /><br />
+				<strong>Pictures:<br />
+				<img src="http://www.aaronrklein.com/wp-content/gallery/cache/1__640x385_ogreconcept.png" /><br />
+				<strong>Video:<br />
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/5-h1TMcE04g" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/Au3UK4jwels" frameborder="0" allowfullscreen></iframe>
+				</strong>
+				<!-- Column 1 end -->
+			</div>
+			<div align="right" class="col2">
+				<!-- Column 2 start -->
+				<div id="ads">
+					<a href="http://www.aaronrklein.com">
+						<img src="http://www.aaronrklein.com/wp-content/themes/azure_hut/images/logo.png"  alt="Designed by Aaron Klein" /> 
+					</a>
+				</div>
+				<h2>Games</h2>
+				<ul>
+					<a href="#"><li>Ogre(C++/Ogre)</li></a>
+					<a href="#"><li>Game Two</li></a>
+					<a href="#"><li>Game Three</li></a>
+				</ul>
+				<h2>In Progress</h2>
+				<h2>Misc.</h2>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

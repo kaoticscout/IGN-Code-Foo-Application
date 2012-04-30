@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>IGN Code-Foo License Plate Problem</title>
+	<link rel="stylesheet" type="text/css" href="LicensePlates.css" />
+	<script type="text/javascript" src="LicensePlate_new.js"></script>
+</head>
+<body>
+<div class="problem-box">
+	<fieldset>
+	<legend>License Plate Problem</legend>
+		<form> 	
+			Population Size: <input type='text' id='population_size' value="0" /> <br />
+			Pattern: <input type="text" readonly="readonly" id="pattern" /><br />
+			Total Plates: <input type="text" readonly="readonly" id="total_plates" /><br />
+			Excess Plates: <input type="text" readonly="readonly" id="excess_plates" /><br />	
+		</form>
+			
+		<input type="submit" value="Calculate pattern" onclick="IdentifyPattern(document.getElementById('population_size').value, 
+																				document.getElementById('pattern'), 
+																				document.getElementById('total_plates'), 
+																				document.getElementById('excess_plates'))" /><br /> 
+
+
+	</fieldset>
+</div>
+</body>
+</html>
